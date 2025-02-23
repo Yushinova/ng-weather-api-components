@@ -8,9 +8,7 @@ img {
     /* margin-right: 15px; */
     padding-right: 15px;
   }
-  .humidity,
-  .wind,
-  .pressure {
+  .parametr{
     font-size: 20px;
     margin-top: -6px;
   }
