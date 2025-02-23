@@ -1,0 +1,16 @@
+.col-details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+img {
+    width: 60px;
+    /* margin-right: 15px; */
+    padding-right: 15px;
+  }
+  .humidity,
+  .wind,
+  .pressure {
+    font-size: 20px;
+    margin-top: -6px;
+  }

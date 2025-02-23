@@ -1,0 +1,9 @@
+<form ngNativeValidate class="row justify-content-center mt-3" (submit)="onFormSubmit($event)">
+    <div class="col-auto city" >
+        <input class="form-control" type="text"
+        placeholder="введите название города" [(ngModel)]="city" name="city" required/>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-light">Поиск</button>
+    </div> 
+  </form>

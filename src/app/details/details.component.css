@@ -1,0 +1,13 @@
+
+  .weather-icon {
+    width: 170px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 50px;
+  }

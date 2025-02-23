@@ -1,0 +1,11 @@
+@if(isResult){
+    <div class="weather">
+        <img src="{{parametr.icon}}" alt="" class="weather-icon" name="icon"/>
+        <h1 name="temp">{{parametr.temp}}</h1>
+        <h2 name="address">{{parametr.address}}</h2> 
+    <div class="details">
+        <app-element [parametr]="parametr.humidity" [image]="'humidity.png'" [content]="'Влажность'"/>
+        <app-element [parametr]="parametr.pressure" [image]="'barometer.png'" [content]="'Давление'"/>
+    </div>
+    </div>
+}
