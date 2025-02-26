@@ -4,7 +4,7 @@ import { getWeather, WeatherResult} from '../weather-api/client';
 import { ErrorComponent } from './error/error.component';
 import { DetailsComponent } from './details/details.component';
 import { FormComponent } from './form/form.component';
-//import { FormComponent } from './form/form.component';
+
 @Component({
   selector: 'app-root',
   imports: [FormsModule,
