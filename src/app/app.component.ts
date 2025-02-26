@@ -26,7 +26,6 @@ async GetWeather(city: string){
     this.error=""
     let weather = await getWeather(city)
     if(typeof weather==="string"){
-      console.log(weather)
       this.error=weather
       this.weather=new WeatherResult()
       this.enabled=false
